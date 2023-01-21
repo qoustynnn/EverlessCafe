@@ -1,0 +1,6 @@
+.off-canvas-nav{
+    transition: all 0.25s;
+}
+.off-canvas-nav:focus {
+    height: 100vh;
+}

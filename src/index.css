@@ -1,13 +1,116 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+html, body{ overflow-x: hidden; max-width: 100%}
+*{
+  font-family: 'Noto Sans', sans-serif;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.page-enter {
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+  transition: 300ms ease-out;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: 300ms ease-in;
+}
+
+.vh-50{
+  height: 50vh;
+}
+
+.nav-text {
+  color: #596847;;
+}
+.icon{
+  transition: color 0.25s;
+  color: rgb(206, 206, 206);
+}
+.icon:hover {
+  color: rgb(255, 255, 255);
+
+}
+.box-shadow{
+  box-shadow: -30px 30px #efe18b;
+}
+.text-apart{
+  letter-spacing: 0.65px;
+}
+.text-bold {
+  font-weight: bold;
+}
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  width: 100%;
+}
+.map-responsive iframe {
+  width: 100%;
+}
+
+.btn-custom{
+  text-decoration: none;
+  outline: 1px solid #596847;
+  padding: 10px;
+  color: #596847;
+  transition: 200ms ;
+  border-radius: 3px;
+}
+.vh {
+  height: 30vh;
+}
+.btn-custom:hover{
+  color: #fff;
+  background-color: #596847;
+}
+.site-footer{
+  background-color: #596847;
+  color: white;
+}
+.text-dark{
+  text-decoration: underline 1px white;
+  padding-right: 1em;
+  font-size: 12px;
+}
+
+.text-underline{
+  text-decoration: underline;
+}
+.cursive {
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+}
+.jumbotron {
+  height: 300px;
+  background-color: #596847;
+  color: white;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.616);
+  color: #596847;
+  padding-left: 30px;
+}
+.bg{
+  background-image: url(../../projectweb/public/assets/images/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-position: 60% 65%;
 }
