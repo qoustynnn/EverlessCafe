@@ -108,7 +108,7 @@ code {
   padding-left: 30px;
 }
 .bg{
-  background-image: url(../../projectweb/public/assets/images/wallpaper.jpg);
+  background-image: url(../public/assets/images/wallpaper.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
